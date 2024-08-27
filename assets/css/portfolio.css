@@ -1,4 +1,4 @@
-#projetos {
+#portfolio {
     background-color: #352728;
 }
 
@@ -7,15 +7,15 @@
     background-size: cover;
 }
 
-.projetos {
+.portfolio {
     padding-top: 93px;
 }
 
-.projetos h2, .projetos a {
+.portfolio h2, .portfolio a {
     text-align: center;
 }
 
-.projetos h2 {
+.portfolio h2 {
     padding-bottom: 70px;
 }
 
@@ -44,7 +44,7 @@ button:hover {
     gap: 35px;
 }
 
-.projetos a {
+.portfolio a {
     display: inline;
 }
 
@@ -85,7 +85,7 @@ button:hover {
     transition: 1000ms;
 }
 
-.projetos-itens {
+.portfolio-itens {
     display: flex;
     flex-wrap: wrap;
     gap: 29.5px;
@@ -94,18 +94,18 @@ button:hover {
 }
 
 @media (max-width:1200px) {
-  .projetos{
+  .portfolio{
       text-align: center;
       display: flex;
       flex-direction: column;
   }
 
-  #projetos {
+  #portfolio {
       display: flex;
       justify-content: center;
   }
 
-  .projetos-itens {
+  .portfolio-itens {
       flex-direction: column;
   }
 
