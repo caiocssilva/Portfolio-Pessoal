@@ -56,23 +56,6 @@ h2 {
     }
 }
 
-.html {
-    bottom: 0;
-    left: 0;
-    animation: html 3s infinite linear alternate-reverse ;
-}
-
-.js {
-    bottom: 0;
-    left: 150px;
-}
-
-.css {
-    bottom: 0;
-    left: 300px;
-    animation: css 3s infinite linear alternate-reverse;
-}
-
 .sobre-mim{
     display: flex;
     flex-direction: column;
@@ -92,10 +75,6 @@ h2 {
         text-align: center;
     }
 
-    .avatar {
-        margin-right: 60px;
-    }
-
     h2 {
         font-size: 30px;
     }
@@ -113,14 +92,14 @@ h2 {
     .circulo {
         display: none;
     }
+
+    .avatar {
+        display: none;
+    }
+
     .ajustador-2 {
         max-width: 350px;
         padding: 70px 30px;
     }
 
-    .avatar {
-        margin-right: 0;
-    }
-
 }
-    
