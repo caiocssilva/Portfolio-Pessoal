@@ -1,5 +1,5 @@
 #formacao {
-    background-color: #493737;
+    background-color: #241a1b; /* Fundo escuro semelhante ao rodapé */
     padding: 50px 20px;
 }
 
@@ -11,17 +11,17 @@
 .formacao-pd h2 { 
     text-align: center;
     padding-bottom: 40px;
-    color: white;
+    color: #f5eaea; /* Cor do texto semelhante à usada no rodapé */
 }
 
 .conteiner-descricao {
-    color: white;
+    color: #f5eaea; /* Cor do texto para combinar com o tema */
     font-family: 'Quando', serif;
     font-size: 18px;
     max-width: 60%;
     margin: 0 auto 30px auto;
     padding: 20px;
-    background-color: #3a2c2c;
+    background-color: #3a2c2c; /* Mantido, pois combina com o novo esquema */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -30,6 +30,7 @@
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
+    color: #f0c040; /* Adicionada uma cor dourada para destacar o texto */
 }
 
 @media (max-width: 1200px) {

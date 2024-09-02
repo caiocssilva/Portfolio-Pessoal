@@ -57,7 +57,7 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+    background: #2c1a1b;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -114,11 +114,6 @@ img {
 .link:hover {
     letter-spacing: 5px;
     color: white;
-}
-
-.desenho {
-    width: 300px;
-    grid-area: desenho;
 }
 
 @keyframes desenhoAnimacao {
